@@ -23,7 +23,7 @@ export default function ContentBox ({name, status, headline, content, background
             <h1 className={`text-xl font-bold ${headline_color}`}>
                 {headline}
             </h1>
-            <p className={`${text_color}`}>{content}</p>
+            <p className={`${text_color}`}>"{content}"</p>
         </div>
     )
 }
