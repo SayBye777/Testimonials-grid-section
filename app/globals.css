@@ -3,13 +3,33 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --purple50: hsl(261, 78%, 88%);
+  --purple300: hsl(264, 82%, 80%);
+  --purple500: hsl(263, 55%, 52%);
+  --grey100: hsl(214, 17%, 92%);
+  --grey200: hsl(0, 0%, 81%);
+  --grey400: hsl(224, 10%, 45%);
+  --grey500: hsl(217, 19%, 35%);
+  --darkblue: hsl(219, 29%, 14%);
 }
 
 @theme inline {
+  --color-purple50: var(--purple50);
+  --color-purple300: var(--purple300);
+  --color-purple500: var(--purple500);
+
+  --color-grey100: var(--grey100);
+  --color-grey200: var(--grey200);
+  --color-grey400: var(--grey400);
+  --color-grey500: var(--grey500);
+
+  --color-darkblue: var(--darkblue);
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-barlow: var(--font-barlow);
 }
 
 @media (prefers-color-scheme: dark) {
